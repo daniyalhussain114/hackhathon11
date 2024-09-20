@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body{
+        background-color: aqua;
+    }
+    input{
+        width:50%;
+        height: 30px;
+    }
+    label{
+        font-size: xx-large;
+    }
+</style>
+<body>
+    <center>
+    <h1>Add Students</h1>
+    <label>FirstName</label>  <br>
+    <input type="text"  id="fname">
+    <br><br>
+    <label>LastName</label>  <br>
+    <input type="text"  id="lname">
+    <br><br>
+    <label>Email</label>  <br>
+    <input type="text"  id="email">
+    <br><br>
+    <label>Password</label>  <br>
+    <input type="password"  id="password">
+    <br><br>
+    <label>Cnic</label>  <br>
+    <input type="text"  id="Cnic">
+    <br><br>
+    <label>Usertype:</label>  <br>
+   <input type="text"  id="utype" value="Student">
+
+   <br><br>
+   <input type="submit"  onclick="saveStudent()" id="submit" >
+</center>
+  <script type="module" src="admin.js"></script>
+    
+</body>
+</html>
